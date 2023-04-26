@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Altone+Trial&display=swap');
+ 
+
+.container {
+  background-image: url("/images/fond.jpg");
+  background-color: rgba(0, 0, 0, 0.7); /* Couleur noire semi-transparente */
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centre les éléments verticalement */
+  height: 100vh;
+  padding: 50px 0;
+}
+  
+  .title {
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Altone Trial', cursive;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+    
+  }
+  
+  .button {
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Altone Trial', cursive;
+  }
+  
+  .button:hover {
+    background-color: darkred;
+  }
+  
